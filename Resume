@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanumanthu Alivelu - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:#f0f4f7; /* Light background color */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: left;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        header p {
+            color: #777;
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .section-title {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 1.4em;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        .contact-info, .education, .skills {
+            margin-top: 20px;
+        }
+        .contact-info p, .education ul li, .skills ul li {
+            font-size: 1.1em;
+            margin: 8px 0;
+        }
+        .contact-info a {
+            color: green;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .skills li {
+            background-color: whitesmoke;
+            padding: 8px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Hanumanthu Alivelu</h1>
+            <p>2nd Year Electronics and Communication Engineering (ECE) Student | Aspiring Developer</p>
+        </header>
+
+        <section class="contact-info">
+            <div class="section-title">Contact Information</div>
+            <p>Email: <a href="mailto:aliveluhanumanthu979@gmail.com">aliveluhanumanthu979@gmail.com</a></p>
+            <p>Phone: +91 6302682979</p>
+            <p>Location: Bhimavaram, India</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/aliveluhanumanthu" target="_blank">linkedin.com/in/aliveluhanumanthu</a></p>
+            <p>GitHub: <a href="https://github.com/Alivelu519" target="_blank">github.com/Alivelu519</a></p>
+        </section>
+
+        <section class="education">
+            <div class="section-title">Education</div>
+            <ul>
+                <li><strong>Bachelor of Technology in Electronics and Communication Engineering (ECE)</strong></li>
+                <li>Sasi Institute of Technology and Engineering</li>
+                <li>Currently in the 2nd year of B.Tech in ECE</li>
+                <li>Relevant coursework: Digital Electronics, Microprocessors, Signal Processing, Communication Systems, Circuits Theory</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li>Programming Languages: C, Python, JavaScript</li>
+                <li>Basic knowledge of Electronics: Circuit Design, Digital Logic, Microprocessors</li>
+                <li>Web Development: HTML, CSS, JavaScript, React (Basic)</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Problem Solving & Analytical Thinking</li>
+                <li>Communication Systems & Signal Processing (Basic understanding)</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
